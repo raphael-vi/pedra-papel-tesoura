@@ -5,7 +5,7 @@ for(i = 0; i < 5; i++){
         
         let valor = valorPlayer.toLowerCase()
         if(valor == "pedra"){
-            valor = 1
+            valor = 1;
             playGame(valor)
         }else if( valor == "papel"){
             valor = 2;
