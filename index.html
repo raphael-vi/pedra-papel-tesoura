@@ -4,9 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="./assets/favicon_io (5)/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Pedra papel tesoura</title>
 </head>
 <body>
+    <main>
+        <div class="pc-container">
+            <div class="pc">
+                <span class="option"  id="pcRock">
+                    <img src="./assets/rock-pc.png" alt="">
+                </span>
+                <span class="option" id="pcPaper">
+                    <img src="./assets/hand-pc.png" alt="">
+                </span>
+                <span class="option" id="pcScissors">
+                    <img src="./assets/scissors-pc.png" alt="">
+                </span>
+            </div>
+        </div>
+        
+        <div class="score">
+            <div class="a">
+                <img class="icon" src="./assets/robot.png" alt=""><h1 >PC: </h1> <h1 id="p1"> 0</h1>
+            </div>
+        
+            <div class="b">
+                <h1 id="suave"></h1>
+            </div>
+            <div class="c"><h1>Você: </h1> <h1 id="p2"> 0 </h1> <img class="icon" src="./assets/man.png" alt=""></div>
+        </div>
+        
+        <div class="container">
+            <div class="player">
+                <div class="column">
+                    <span class="option" id="pedra">
+                        <img src="./assets/icons8-hand-rock-96.png" alt="">
+                    </span>
+                    <h4>PEDRA</h4>
+                </div>
+                <div class="column">
+                    <span class="option" id="papel">
+                        <img src="./assets/icons8-hand-96.png" alt="">
+                    </span>
+                    <h4>PAPEL</h4>
+                </div>
+                <div class="column">
+                    <span class="option" id="tesoura">
+                        <img src="./assets/icons8-two-fingers-96.png" alt="">
+                    </span>
+                        <h4>TESOURA</h4>
+                </div>
+            </div>
+        </div>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
